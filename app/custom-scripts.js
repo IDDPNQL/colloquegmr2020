@@ -61,7 +61,6 @@ define(["dojo/topic"], function(topic) {
         //On mouseout, revert to default cursor and hide tooltip
 				layer.on("mouse-out", function(e){
 					map.setMapCursor("default");
-					map.infoWindow.hide();
 				});
         
         //On click, scroll to corresponding MJ section

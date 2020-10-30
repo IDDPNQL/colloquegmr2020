@@ -42,7 +42,7 @@ app.cfg = {
 			id: "side",
 			thumbnail: "resources/tpl/builder/icons/builder-layout-side.png",
 			liveApp: "http://links.esri.com/storymaps/map_journal_example_side_panel",
-			sizes: { small: '30%', medium: '40%', large: '50%' },
+			sizes: { small: '20%', medium: '40%', large: '50%' },
 			positions: ["left", "right"],
 			themes: [
 				{name: "side-default-1", themeMajor: "white", dotNav: "#777777", panel: "#FFFFFF", media: "#EEEEEE", text: "#000000", textLink: "#555", softText: "#c0c0c0", softBtn: "#444",    esriLogo: "black"},

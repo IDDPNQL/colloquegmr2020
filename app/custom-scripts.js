@@ -26,7 +26,7 @@ define(["dojo/topic"], function(topic) {
         // On mouseover, change cursor to pointer; show tooltip
 				layer.on("mouse-over", function(e){
 					map.setMapCursor("pointer");
-					map.infoWindow.setFeatures([e.graphic.attributes["communaute"]]);
+					map.infoWindow.setFeatures([e.graphic]);
 					map.infoWindow.show(e.graphic.geometry);
 					map.infoWindow.resize();
 				});

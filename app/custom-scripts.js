@@ -10,7 +10,7 @@ define(["dojo/topic"], function(topic) {
 	 */
 	});
 
-	var WEBMAP_ID = "b83a88a330e94e46a7e60911e006bdc5",
+	var WEBMAP_ID = "b1eec5ec74b046f2a74e21f28ef93ea0",
 		LAYER_ID_1 = "info_generale_data_20201027_6325",
 		LAYER_ID_2 = "service_infrastructure_data_20201027_578";
 

@@ -28,7 +28,7 @@ define(["dojo/topic"], function(topic) {
 					map.setMapCursor("pointer");
 					map.infoWindow.setFeatures([e.graphic]);
 					map.infoWindow.show(e.graphic.geometry);
-					map.infoWindow.resize(300,20);
+					map.infoWindow.resize(300,10);
 				});
         
         //On mouseout, revert to default cursor and hide tooltip

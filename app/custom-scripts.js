@@ -13,7 +13,7 @@ require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	// Custom script to add a splash page
 	var splashPage = new Dialog ({
 		title: 'Splash Page',
-		content: '<p><strong>Bienvenue sur le portrait interactif des infrastructures GMR accessibles aux Premières Nations au Québec et au Labrador</p><p>Instructions: Naviguez sur la carte à droite de l''écran et cliquez sur une communauté pour obtenir un portrait des ses infrastructures de gestion des matières résiduelles ou défilez les onglets.<br /><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?dpr=1&auto=format&crop=entropy&fit=crop..." alt="Photo of parks" />',
+		content: '<p><strong>Bienvenue sur le portrait interactif des infrastructures GMR accessibles aux Premières Nations au Québec et au Labrador</p><p>Instructions: Naviguez sur la carte à droite de l''écran et cliquez sur une communauté pour obtenir un portrait des ses infrastructures de gestion des matières résiduelles ou défilez les onglets.<br /><img src="https://iddpnql.maps.arcgis.com/sharing/rest/content/items/8c8dc8c93bb04292b126cf1157c30c1f/data&auto=format&crop=entropy&fit=crop..." alt="Photo of parks" />',
 		style: 'width: 430px; height: 436px;'
 	});
 	

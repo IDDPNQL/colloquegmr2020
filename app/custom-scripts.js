@@ -12,8 +12,8 @@ require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	
 	// Custom script to add a splash page
     	var splashPage = new Dialog ({
-		title: 'Splash Page',
-		content: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel in rem rerum saepe quidem est, ratione molestias a harum!</p><br /><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?dpr=1&auto=format&crop=entropy&fit=crop..." alt="Photo of parks" />',
+		title: 'Instructions',
+		content: '<p>Naviguez sur la carte à droite de l&aposécran et cliquez sur une communauté pour obtenir un portrait des ses infrastructures de gestion des matières résiduelles ou défilez les onglets à gauche de l&aposécran</p><br /><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?dpr=1&auto=format&crop=entropy&fit=crop..." alt="Photo of parks" />',
 		style: 'width: 430px; height: 436px;'
 	});
 	

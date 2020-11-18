@@ -1,23 +1,26 @@
 require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
+	
 	/*
 	* Custom Javascript to be executed while the application is initializing goes here
 	*/
 
 	// The application is ready
 	topic.subscribe("tpl-ready", function(){
+		
 	/*
 	 * Custom Javascript to be executed when the application is ready goes here
 	 */
-	});
-
+	
 	// Custom script to add a splash page
 	var splashPage = new Dialog ({
 		title: "Instructions",
 		content: "<p style="text-align: justify">Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des ses infrastructures de gestion des matières résiduelles ou défilez les onglets à gauche de l'écran<\p>",
 		style: 'width: 430px; height: 436px;'
 	});
-	
+		
 	splashPage.show();
+		
+	});
 
 	// ArcGIS Online content IDs
 	var WEBMAP_ID = "b83a88a330e94e46a7e60911e006bdc5",

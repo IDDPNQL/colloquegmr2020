@@ -1,4 +1,4 @@
-define(["dojo/topic"], function(topic) {
+define(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	/*
 	* Custom Javascript to be executed while the application is initializing goes here
 	*/
@@ -9,7 +9,17 @@ define(["dojo/topic"], function(topic) {
 	 * Custom Javascript to be executed when the application is ready goes here
 	 */
 	});
+	
+	// Custom script to add a splash page
+	var splashPage = new Dialog ({
+		title: 'Splash Page',
+		content: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel in rem rerum saepe quidem est, ratione molestias a harum!</p><br /><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?dpr=1&auto=format&crop=entropy&fit=crop..." alt="Photo of parks" />',
+		style: 'width: 430px; height: 436px;'
+	});
+	
+	splashPage.show();
 
+	// ArcGIS Online content IDs
 	var WEBMAP_ID = "b83a88a330e94e46a7e60911e006bdc5",
 		LAYER_ID_1 = "info_generale_data_20201027_6325",
 		LAYER_ID_2 = "service_infrastructure_data_20201027_578";

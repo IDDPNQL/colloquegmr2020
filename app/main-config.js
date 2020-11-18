@@ -91,6 +91,7 @@ defineDojoConfig();
 app.isInBuilder = getUrlVar('edit') || getUrlVar('fromScratch') || getUrlVar('fromscratch');
 app.indexCfg = configOptions;
 
+loadCSS(app.pathJSAPI + "esri/css/esri.css", true);
 loadCSS(app.pathJSAPI + "esri/themes/calcite/dijit/calcite.css", true);
 
 if( app.isProduction ) {

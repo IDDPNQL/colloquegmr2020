@@ -16,15 +16,6 @@ define(["dojo/topic"], function(topic) {
 
 	var clickHandlerIsSetup = false;
 	
-	// Custom script to add a splash page
-	var splashPage = new Dialog ({
-		title: 'Splash Page',
-		content: '<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam vel in rem rerum saepe quidem est, ratione molestias a harum!</p><br /><img src="https://images.unsplash.com/photo-1469521669194-babb45599def?dpr=1&auto=format&crop=entropy&fit=crop..." alt="Photo of parks" />',
-		style: 'width: 430px; height: 436px;'
-	});
-	
-	splashPage.show();
-	
 	// Custom script to change Map journal section with map community
 	topic.subscribe("story-loaded-map", function(result){
 		if ( result.id == WEBMAP_ID && ! clickHandlerIsSetup ) {

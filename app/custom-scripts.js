@@ -13,7 +13,7 @@ require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	// Custom script to add a splash page
     	var splashPage = new Dialog ({
 		title: "Instructions",
-		content: "<p style='text-align: justify'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des ses infrastructures de gestion des matières résiduelles ou défilez les onglets à gauche de l'écran</p>",
+		content: "<p style='text-align: justify'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des infrastructures de gestion des M.R. accessibles ou défilez les onglets à gauche de l'écran</p>",
 		style: 'width: 430px; height: 436px;'
 	});
 	

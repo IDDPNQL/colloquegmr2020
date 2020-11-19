@@ -12,8 +12,8 @@ require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	
 	// Custom script to add a splash page
     	var splashPage = new Dialog ({
-		title: "Instructions",
-		content: "<p style='text-align: justify'><img src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/c4eab06fe02c4b9d896ff3f24577436a/data' width='50' height='50'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des infrastructures de gestion des M.R. accessibles ou défilez les onglets à gauche de l'écran.</p>",
+		title: "<p><strong>Instructions</strong></p>",
+		content: "<p><strong>Portraits spécifiques</strong></p><p style='text-align: justify'><img src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/c4eab06fe02c4b9d896ff3f24577436a/data' width='50' height='50'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des infrastructures de gestion des M.R. accessibles ou défilez les onglets à gauche de l'écran.</p>",
 		style: 'width: 430px; height: 436px;'
 	});
 	

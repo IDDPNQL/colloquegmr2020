@@ -13,8 +13,8 @@ require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	// Custom script to add a splash page
     	var splashPage = new Dialog ({
 		title: "<b>Instructions</b>",
-		content: "<table><tr><td><b>Portraits spécifiques</b></td></tr><td><img src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/c4eab06fe02c4b9d896ff3f24577436a/data' width='150' height='150'></td><td style='text-align: justify'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des infrastructures de gestion des M.R. accessibles ou défilez les onglets à gauche de l'écran.</td></tr><tr><td><b>Portrait sommaire</b></td></tr><tr><td><img src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/8006caa058bf4bc7b6fcddec98f36048/data' width='343' height='56'></td><td>Sur la page d'accueil, cliquez sur le boutton <b>sommaire interactif</b> pour obtenir un sommaire des infrastructures de gestions des M.R.</td></tr></table>",
-		style: 'width: 600px; height: 350px;'
+		content: "<table><tr><td><b>Portraits spécifiques</b></td></tr><td><img src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/c4eab06fe02c4b9d896ff3f24577436a/data' width='150' height='150'></td><td style='text-align: justify'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait des infrastructures de gestion des M.R. accessibles ou défilez les onglets à gauche de l'écran.</td></tr><tr><td><b>Portrait sommaire</b></td></tr><tr><td><img src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/8006caa058bf4bc7b6fcddec98f36048/data' width='72' height='28'></td><td>Sur la page d'accueil, cliquez sur le boutton <b>sommaire interactif</b> pour obtenir un sommaire des infrastructures de gestions des M.R.</td></tr></table>",
+		style: 'width: 600px; height: 400px;'
 	});
 	
 	splashPage.show();

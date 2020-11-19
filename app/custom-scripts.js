@@ -13,7 +13,7 @@ require(["dojo/topic","dijit/Dialog"], function(topic, Dialog) {
 	// Custom script to add a splash page
     	var splashPage = new Dialog ({
 		title: "<b>Instructions</b>",
-		content: "<table><tr><td><b>Portraits spécifiques</b></td></tr><tr><td style='text-align: justify'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait de ses infrastructures de gestion des M.R. accessibles.</td><td><img style='vertical-align:middle;margin:0px 25px' src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/32371679c5bd483993fae3dc90285d45/data' width='60' height='70'></td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Portrait sommaire</b></td></tr><tr><td style='text-align: justify'>Sur la page d'accueil, cliquez sur le boutton <b>sommaire interactif</b> pour obtenir un portrait sommaire de la gestion des M.R. dans les communautés.</td></tr></table>",
+		content: "<table><tr><td><b>Portraits spécifiques</b></td></tr><tr><td style='text-align: justify'>Naviguez sur la carte à droite de l'écran et cliquez sur une communauté pour obtenir un portrait de ses infrastructures de gestion des M.R. accessibles.</td><td><img style='vertical-align:middle;margin:0px 25px' src='https://iddpnql.maps.arcgis.com/sharing/rest/content/items/32371679c5bd483993fae3dc90285d45/data' width='45' height='52'></td></tr><tr><td>&nbsp;</td></tr><tr><td><b>Portrait sommaire</b></td></tr><tr><td style='text-align: justify'>Sur la page d'accueil, cliquez sur le boutton <b>sommaire interactif</b> pour obtenir un portrait sommaire de la gestion des M.R. dans les communautés.</td></tr></table>",
 		style: 'width: 600px; height: 300px;'
 	});
 	
